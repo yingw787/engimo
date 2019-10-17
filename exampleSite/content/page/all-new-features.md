@@ -128,7 +128,7 @@ For instance, to embed `/static/casts/my-fantastic-cast.cast` file, use:
 ```
 
 
-{{< asciinema key="demo-cast" rows="20" preload="0" >}}
+{{< asciinema key="my-fantastic-cast" rows="20" preload="1" >}}
 
 
 ## Deprecated pages
