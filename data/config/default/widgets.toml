@@ -7,10 +7,6 @@ logo = "/images/logo.svg"
 separator = "/"
 excludeParents = ["page"]
 
-[breadcrumbs]
-separator = "/"
-excludeParents = ["page"]
-
 [recent_posts]
 title = ""
 length = 5
