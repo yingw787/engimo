@@ -1,4 +1,4 @@
-<script>window.__assets_js_src = {{- "assets/js/" | relURL -}}</script>
+<script>window.__assets_js_src={{- "assets/js/" | relURL -}}</script>
 
 <script src='{{ print "assets/js/" .Site.Data.assets.main.js | absURL }}'></script>
 
@@ -8,6 +8,7 @@
 
 {{ partial "footer/mathjax" . }}
 {{- partial "footer/katex" . -}}
+{{- partial "footer/mermaid" . -}}
 
 {{ partial "footer/extra" . }}
 

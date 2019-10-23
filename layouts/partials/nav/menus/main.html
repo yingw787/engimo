@@ -7,8 +7,10 @@
     {{- range .Site.Menus.main -}}
       {{- $isCurrent := ( or ( $.IsMenuCurrent "main" . ) ( $.HasMenuCurrent "main" . ) ) -}}
       <li class='item {{- if $isCurrent }} current {{- end -}}'>
-        <a {{ if $isCurrent -}} aria-current='page' {{ end -}} href='{{ .URL }}' class="{{ .Identifier }}">
-          <span>{{- .Name -}}</span>
+        <a {{ if $isCurrent -}} aria-current='page' {{ end -}} href='{{ .URL }}'>
+          {{- with .Pre -}}{{- . -}}{{- end -}}
+          {{- .Name -}}
+          {{- with .Post -}}{{- . -}}{{- end -}}
         </a>
       </li>
     {{- end -}}
