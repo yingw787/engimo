@@ -9,16 +9,6 @@ logo = "/images/logo.svg"             # default: "/images/logo.png"
 separator = "/"                      # default: "/"
 excludeParents = ["page"]            # default: ["page"]
 
-# Breadcrumbs Widget config
-[breadcrumbs]
-separator = "/"                      # default: "/"
-excludeParents = ["page"]            # default: ["page"]
-
-# Breadcrumbs Widget config
-[breadcrumbs]
-separator = "/"                      # default: "/"
-excludeParents = ["page"]            # default: ["page"]
-
 # Recent Posts Widget config
 [recent_posts]
 title = ""                            # default: "Recent Posts"
