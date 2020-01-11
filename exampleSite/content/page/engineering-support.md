@@ -24,6 +24,7 @@ Engimo extends Minimo theme with support of:
 - [2D Charts](/docs/charts)
 - [Message Sequence Charts](/docs/message-sequence-charts)
 - [Flowcharts](/docs/flowcharts)
+- [Mermaid diagrams](/docs/mermaid)
 
 ## Deprecated pages
 

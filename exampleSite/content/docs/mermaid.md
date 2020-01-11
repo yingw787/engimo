@@ -8,7 +8,7 @@ categories:
 tags:
   - engineering
 comments: false
-viz: true
+mermaid: true
 ---
 
 In order to include [mermaid] diagram, add the following attribute to the page metadata section:
