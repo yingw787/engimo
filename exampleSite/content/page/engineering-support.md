@@ -32,15 +32,17 @@ Support for [marking pages as deprecated](/docs/deprecated).
 ## Online vs offline
 Most of these features are available when working online, since some of the work performed relies on JavaScript resources available in the Internet.
 
-feature | online | offline
----|---|---
-maths and formulas | ✓ | -
-graphviz | ✓ | ✓
-waveforms | ✓ | ✓
-deprecated pages | ✓ | ✓
-charts | ✓ | ✓
-message sequence charts | ✓ | ✓
-flowcharts | ✓ | ✓
+| feature                 | online | offline |
+| ----------------------- | ------ | ------- |
+| maths and formulas      | ✓      | -       |
+| graphviz                | ✓      | ✓       |
+| waveforms               | ✓      | ✓       |
+| deprecated pages        | ✓      | ✓       |
+| charts                  | ✓      | ✓       |
+| message sequence charts | ✓      | ✓       |
+| flowcharts              | ✓      | ✓       |
+| asciinema               | ✓      | ✓       |
+| mermaid                 | ✓      | ✓       |
 
 ## Summary
 

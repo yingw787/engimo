@@ -13,6 +13,7 @@ chart: true
 msc: true
 flowchart: true
 asciinema: true
+mermaid: true
 toc: true
 ---
 
