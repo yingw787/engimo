@@ -5,8 +5,15 @@
   },
   "config": {
     "tex2jax": {
+      "extensions": ["tex2jax.js"],
       "inlineMath": [["$", "$"], ["\\(", "\\)"]],
-      "processEscapes": true
+      "displayMath": [ ["$$","$$"], ["\\[","\\]"] ],
+      "processEscapes": true,
+      "tex": {
+        "macros": {
+          "\\_": "_"
+        }
+      }
     }
   }
 }
